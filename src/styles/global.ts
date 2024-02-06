@@ -1,18 +1,10 @@
 import { globalCss } from '.'
 
 export const globalStyles = globalCss({
-  ':root': {
-    '--swiper-theme-color': '$purple-200 !important',
-  },
-
   '*': {
     margin: 0,
     padding: 0,
     'box-sizing': 'border-box',
-  },
-
-  '.pac-container': {
-    zIndex: '1100 !important',
   },
 
   html: {
@@ -35,12 +27,12 @@ export const globalStyles = globalCss({
   },
 
   'body, button, input, textarea': {
-    fontFamily: '$nunito',
+    fontFamily: '$jakarta',
   },
 
   body: {
-    backgroundColor: '$gray-800',
-    color: '$gray-100',
+    backgroundColor: '$background-01',
+    color: '$dark-main',
   },
 
   ul: {
@@ -55,4 +47,12 @@ export const globalStyles = globalCss({
     cursor: 'pointer',
     outline: 'none',
   },
+
+  '.d-flex': {
+    display: 'flex',
+  },
+
+  '.align-center': {
+    alignItems: 'center',
+  } 
 })
