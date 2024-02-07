@@ -80,11 +80,11 @@ export const ClientsSection = styled('section', {
   
     '.clients-grid': {
       maxWidth: '100%',
-      gridTemplateColumns: 'repeat(2, 1fr)',
+      gridTemplateColumns: 'repeat(2, 1fr) !important',
       columnGap: 0,
 
       img: {
-        width: 170,
+        width: '100%',
         height: 124,
         justifySelf: 'center',
       }
