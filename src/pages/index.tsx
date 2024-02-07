@@ -5,6 +5,7 @@ import Hero from '@/components/sections/Hero'
 import Clients from '@/components/sections/Clients'
 
 import { HomeContainer } from '@/styles/Home'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Clients />
+      <Footer />
     </HomeContainer>
     </>
  
