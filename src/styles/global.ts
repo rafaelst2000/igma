@@ -10,7 +10,7 @@ export const globalStyles = globalCss({
   html: {
     'scroll-behavior': 'smooth',
   },
-
+/* 
   '::-webkit-scrollbar-track': {
     borderRadius: 999,
     backgroundColor: '$gray-700',
@@ -24,7 +24,7 @@ export const globalStyles = globalCss({
   '::-webkit-scrollbar-thumb': {
     borderRadius: 999,
     backgroundColor: '$gray-600',
-  },
+  }, */
 
   'body, button, input, textarea': {
     fontFamily: '$jakarta',

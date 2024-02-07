@@ -1,4 +1,4 @@
-import { HeroSection } from '../../../styles/components/sections/Hero'
+import { HeroSection } from '../../styles/components/sections/Hero'
 import Image from 'next/image'
 
 export default function Hero() {
