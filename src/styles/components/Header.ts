@@ -5,23 +5,13 @@ export const HeaderContainer = styled('header', {
   top: 0,
   left: 0,
   background: 'transparent',
-  width: '100%',
   height: 80,
-
-  '.logo-container': {
-    width: 120,
-    position: 'absolute',
-    left: 0,
-  }, 
-
-  '.header-content': {
-    maxWidth: 1624,
-    height: '100%',
-    
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'flex-end'
-  },
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  maxWidth: '1624px',
+  width: '100%',
+  margin: '0 auto',
 
   '@media screen and (max-width: 1440px)': {
     '.header-content': {

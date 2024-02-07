@@ -10,7 +10,7 @@ export const HeroSection = styled('section', {
   '.hero-container': {
     padding: '0 109px 0',
     display: 'grid',
-    gridTemplateColumns: '422px 530px',
+    gridTemplateColumns: '525px 663px',
     gap: 162,
     justifyContent: 'center',
 
@@ -66,7 +66,7 @@ export const HeroSection = styled('section', {
 
   '@media screen and (max-width: 1440px)': {
     '.hero-container': {
-      gridTemplateColumns: '304px 384px',
+      gridTemplateColumns: '422px 532px',
       gap: 125,
 
       '.hero-image-container': {
@@ -97,6 +97,7 @@ export const HeroSection = styled('section', {
   '@media screen and (max-width: 1280px)': {
     '.hero-container': {
       gap: 96,
+      gridTemplateColumns: '304px 384px',
       
       '.hero-image-container': {
 
