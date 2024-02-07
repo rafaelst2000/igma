@@ -35,6 +35,10 @@ export const globalStyles = globalCss({
     color: '$dark-main',
   },
 
+  main: {
+    position: 'relative',
+  },
+
   ul: {
     listStyle: 'none',
   },
