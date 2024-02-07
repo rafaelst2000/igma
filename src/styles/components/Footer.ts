@@ -24,17 +24,22 @@ export const FooterContainer = styled('footer', {
     padding: '$stack-xxl 24px',
     maxWidth: 1296,
 
-    p: {
-      fontSize: '$xs',
-    }
+    '.footer-text': {
+      p: {
+        fontSize: '$xs',
+      }
+    },
   },
 
   '@media screen and (max-width: 1280px)': {
     padding: '$stack-xxl 24px',
     maxWidth: 944,
-    p: {
-      fontSize: '$xxs',
-    }
+
+    '.footer-text': {
+      p: {
+        fontSize: '$xxs',
+      }
+    },
   },
 
   '@media screen and (max-width: 1024px)': {
