@@ -11,6 +11,7 @@ export const HeaderContainer = styled('header', {
   maxWidth: '1624px',
   width: '100%',
   margin: '0 auto',
+  zIndex: 999,
 
   '@media screen and (max-width: 1440px)': {
     '.header-content': {
