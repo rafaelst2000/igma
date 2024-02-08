@@ -1,7 +1,7 @@
 import { styled } from '@stitches/react'
 
 export const HeaderContainer = styled('header', {
-  position: 'sticky',
+  position: 'fixed',
   top: 0,
   left: 0,
   height: 80,
