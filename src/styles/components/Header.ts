@@ -8,20 +8,20 @@ export const HeaderContainer = styled('header', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  maxWidth: '1624px',
+  maxWidth: '1672px',
   width: '100%',
   margin: '0 auto',
   zIndex: 999,
 
   '@media screen and (max-width: 1440px)': {
     '.header-content': {
-      maxWidth: 1296
+      maxWidth: 1344
     },
   },
 
   '@media screen and (max-width: 1280px)': {
     '.header-content': {
-      maxWidth: 944
+      maxWidth: 992
     },
 
     '.logo-container': {

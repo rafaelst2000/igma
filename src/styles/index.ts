@@ -41,7 +41,7 @@ export const {
       'dark-main': '#333333',
       'dark-highlight': '#211E1E',
       'dark-contrast': '#FFFFFF',
-      'dark-disabled': '#AEAEAE',
+      'dark-disable': '#AEAEAE',
 
       'light-secondary': '#F5F5F5',
       'light-main': '#EDEDED',
@@ -50,6 +50,9 @@ export const {
 
       'background-01': '#FFFFFF',
 
+      'error-light': '#ef5350',
+      'error-main': '#D32F2F',
+      'error-dark': '#C62828',
     },
 
     fonts: {
@@ -70,6 +73,15 @@ export const {
       'giant': '96px',
     },
 
+    lineHeights: {
+      'xxs': '100%',
+      'xs': '115%',
+      'sm': '120%',
+      'md': '133%',
+      'lg': '150%',
+      'xl': '175%',
+    },
+
     fontWeights: {
       'md': '500',
       'sb': '600',
@@ -85,7 +97,7 @@ export const {
     borderWidths: {
       'none': '0px',
       'hairline': '1px',
-      'thin': '2px',
+      'sm': '2px',
       'thick': '3px',
       'heavy': '4px'
     },

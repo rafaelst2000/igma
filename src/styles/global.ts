@@ -46,6 +46,9 @@ export const globalStyles = globalCss({
   button: {
     cursor: 'pointer',
     outline: 'none',
+    borderWidth: '$thin',
+    borderColor: 'transparent',
+    borderStyle: 'solid',
   },
 
   '.d-flex': {

@@ -1,7 +1,7 @@
 import { styled } from '@stitches/react'
 
 export const FooterContainer = styled('footer', {
-  maxWidth: '1624px',
+  maxWidth: '1672px',
   padding: '$stack-xxxl 24px',
   margin: '0 auto',
   borderColor: '#000',
@@ -22,7 +22,7 @@ export const FooterContainer = styled('footer', {
 
   '@media screen and (max-width: 1440px)': {
     padding: '$stack-xxl 24px',
-    maxWidth: 1296,
+    maxWidth: 1344,
 
     '.footer-text': {
       p: {
@@ -33,7 +33,7 @@ export const FooterContainer = styled('footer', {
 
   '@media screen and (max-width: 1280px)': {
     padding: '$stack-xxl 24px',
-    maxWidth: 944,
+    maxWidth: 992,
 
     '.footer-text': {
       p: {

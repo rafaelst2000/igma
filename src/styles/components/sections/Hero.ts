@@ -1,10 +1,10 @@
 import { styled } from '@stitches/react'
 
 export const HeroSection = styled('section', {
-  paddingTop: '$stack-xxxl',
-  maxWidth: 1624,
+  maxWidth: 1672,
   marginRight: 'auto',
   marginLeft: 'auto',
+  padding: '$stack-xxxl 24px 0',
 
   '.hero-container': {
     padding: '0 109px 0',

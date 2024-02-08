@@ -2,13 +2,13 @@ import { styled } from '@stitches/react'
 
 export const ClientsSection = styled('section', {
   padding: '98px 24px',
-  maxWidth: 1624,
+  maxWidth: 1672,
   margin: '0 auto',
   display: 'grid',
   justifyContent: 'space-between',
   alignItems: 'center',
-  gridTemplateColumns: 'minmax(400px, 525px) 937px',
-  gap: 'auto',
+  gridTemplateColumns: 'minmax(400px, 525px) 1fr',
+  gap: '162px',
 
   h2: {
     width: '100%',
@@ -28,8 +28,10 @@ export const ClientsSection = styled('section', {
   
   '@media screen and (max-width: 1440px)': {
     padding: '94px 24px',
-    maxWidth: 1296,
-    gridTemplateColumns: '421px 749px',
+    maxWidth: 1344,
+    gridTemplateColumns: '421px 1fr',
+    gap: '126px',
+
     h2: {
       fontSize: '$md',
     },
@@ -46,9 +48,10 @@ export const ClientsSection = styled('section', {
 
   '@media screen and (max-width: 1280px)': {
     padding: '$stack-xxl 24px',
-    maxWidth: 944,
+    maxWidth: 992,
     justifyContent: 'space-between',
-    gridTemplateColumns: '304px 544px',
+    gridTemplateColumns: '304px 1fr',
+    gap: 99,
 
     h2: {
       fontSize: '$xs',
@@ -57,10 +60,11 @@ export const ClientsSection = styled('section', {
     '.clients-grid': {
       columnGap: 0,
       justifyContent: 'center',
+      gridTemplateColumns: 'repeat(3, 1fr)',
 
       img: {
-        width: 170,
-        height: 124
+        width: '100%',
+        height: 'auto',
       }
     },
   },
