@@ -14,6 +14,7 @@ export default function App({
     AOS.init({
       offset: 300,
       duration: 600,
+      throttleDelay: 300,
     })
     window.scrollTo(0, 0)
   }, [])
