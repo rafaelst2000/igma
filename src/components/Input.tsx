@@ -4,7 +4,7 @@ import { CSS } from '@stitches/react'
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   error?: boolean
-  errorMessage?: string,
+  errorMessage?: string
   css?: CSS
 }
 
@@ -14,7 +14,9 @@ export const Input = ({ error, errorMessage, css, ...props }: InputProps) => {
       <InputContainer error={error} css={css}>
         <input {...props} />
       </InputContainer>
-      {error && errorMessage ? <ErrorMessage>{errorMessage}</ErrorMessage> : null}
+      {error && errorMessage ? (
+        <ErrorMessage>{errorMessage}</ErrorMessage>
+      ) : null}
     </>
   )
 }

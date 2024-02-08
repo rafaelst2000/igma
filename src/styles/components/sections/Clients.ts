@@ -25,7 +25,7 @@ export const ClientsSection = styled('section', {
     gridTemplateColumns: 'repeat(3, 242px)',
     justifyContent: 'space-between',
   },
-  
+
   '@media screen and (max-width: 1440px)': {
     padding: '94px 24px',
     maxWidth: 1344,
@@ -35,14 +35,14 @@ export const ClientsSection = styled('section', {
     h2: {
       fontSize: '$md',
     },
-  
+
     '.clients-grid': {
       gridTemplateColumns: 'repeat(3, 210px)',
 
       img: {
         width: 210,
-        height: 153
-      }
+        height: 153,
+      },
     },
   },
 
@@ -56,7 +56,7 @@ export const ClientsSection = styled('section', {
     h2: {
       fontSize: '$xs',
     },
-  
+
     '.clients-grid': {
       columnGap: 0,
       justifyContent: 'center',
@@ -65,7 +65,7 @@ export const ClientsSection = styled('section', {
       img: {
         width: '100%',
         height: 'auto',
-      }
+      },
     },
   },
 
@@ -81,7 +81,7 @@ export const ClientsSection = styled('section', {
       width: '100%',
       fontSize: '$xs',
     },
-  
+
     '.clients-grid': {
       maxWidth: '100%',
       gridTemplateColumns: 'repeat(2, 1fr) !important',
@@ -91,7 +91,7 @@ export const ClientsSection = styled('section', {
         width: '100%',
         height: 124,
         justifySelf: 'center',
-      }
+      },
     },
   },
 })

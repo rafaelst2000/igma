@@ -11,17 +11,16 @@ import { HomeContainer } from '@/styles/Home'
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Igma</title>
-    </Head>
-    <HomeContainer>
-      <Header />
-      <Hero />
-      <Clients />
-      <Newsletter />
-      <Footer />
-    </HomeContainer>
+      <Head>
+        <title>Igma</title>
+      </Head>
+      <HomeContainer>
+        <Header />
+        <Hero />
+        <Clients />
+        <Newsletter />
+        <Footer />
+      </HomeContainer>
     </>
- 
   )
 }

@@ -57,5 +57,5 @@ export const globalStyles = globalCss({
 
   '.align-center': {
     alignItems: 'center',
-  } 
+  },
 })

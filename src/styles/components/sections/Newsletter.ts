@@ -26,16 +26,16 @@ export const NewsletterSection = styled('section', {
     lineHeight: '$lg',
     textAlign: 'left',
     color: '$dark-main',
-    padding: '$stack-md 0'
+    padding: '$stack-md 0',
   },
 
   '.cellphone-horizontal-carrousel': {
-    display: 'none'
+    display: 'none',
   },
 
   '.cellphones-grid': {
     maxWidth: '100%',
- 
+
     display: 'grid',
     justifyContent: 'space-between',
     gridTemplateColumns: 'repeat(4, minmax(161px, 193px))',
@@ -50,10 +50,10 @@ export const NewsletterSection = styled('section', {
       img: {
         width: '100%',
         height: 'auto',
-      }
+      },
     },
   },
-  
+
   '@media screen and (max-width: 1440px)': {
     maxWidth: 1344,
     gridTemplateColumns: '421px 1fr',
@@ -62,12 +62,12 @@ export const NewsletterSection = styled('section', {
     h3: {
       fontSize: '$xs',
     },
-  
+
     h2: {
       fontSize: '$md',
     },
 
-    '.cellphones-grid': {  
+    '.cellphones-grid': {
       gridTemplateColumns: 'repeat(4, minmax(113px, 161px))',
       gap: 24,
 
@@ -86,15 +86,15 @@ export const NewsletterSection = styled('section', {
     h3: {
       fontSize: '$xxs',
     },
-  
+
     h2: {
       fontSize: '$xs',
     },
-  
-    '.cellphones-grid': {  
+
+    '.cellphones-grid': {
       gridTemplateColumns: 'repeat(4, minmax(90px, 113px))',
       gap: 20,
-      
+
       '.carrousel-item': {
         marginBottom: '20px',
       },
@@ -116,26 +116,25 @@ export const NewsletterSection = styled('section', {
     h3: {
       fontSize: '$xxs',
     },
-    
+
     '.cellphones-grid': {
-      display: 'none'
+      display: 'none',
     },
 
     '.cellphone-horizontal-carrousel': {
       maxWidth: 'calc(100vw - 48px)',
       display: 'block',
-  
+
       '.carrousel-item': {
         maxWidth: '100%',
         display: 'flex !important',
         alignItems: 'center',
-    
-  
+
         img: {
           width: '133px',
           height: '237px',
-        }
+        },
       },
     },
-  }, 
+  },
 })

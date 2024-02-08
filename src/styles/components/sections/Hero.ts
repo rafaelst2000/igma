@@ -16,7 +16,7 @@ export const HeroSection = styled('section', {
     '.hero-image-container': {
       maxWidth: '100%',
       position: 'relative',
-      
+
       img: {
         maxWidth: '100%',
         height: 'auto',
@@ -31,7 +31,7 @@ export const HeroSection = styled('section', {
         left: '-16px',
         top: '50%',
         transform: 'translateY(-50%)',
-      }
+      },
     },
 
     '.hero-info-container': {
@@ -43,7 +43,7 @@ export const HeroSection = styled('section', {
           fontSize: '$md',
           fontWeight: '$md',
           lineHeight: '$sm',
-        }
+        },
       },
 
       h1: {
@@ -60,7 +60,7 @@ export const HeroSection = styled('section', {
         fontWeight: '$sb',
         lineHeight: '$lg',
       },
-    }
+    },
   },
 
   '@media screen and (max-width: 1440px)': {
@@ -69,27 +69,26 @@ export const HeroSection = styled('section', {
       gap: 125,
 
       '.hero-image-container': {
-
         '&::after': {
           transform: 'translateY(-89%)',
-        }
+        },
       },
-   
+
       '.hero-info-container': {
-        '.hero-info-presentation': {  
+        '.hero-info-presentation': {
           span: {
             fontSize: '$xs',
-          }
+          },
         },
-  
+
         h1: {
           fontSize: '$xl',
         },
-  
+
         h2: {
           fontSize: '$md',
         },
-      }
+      },
     },
   },
 
@@ -97,30 +96,29 @@ export const HeroSection = styled('section', {
     '.hero-container': {
       gap: 96,
       gridTemplateColumns: '304px 384px',
-      
-      '.hero-image-container': {
 
+      '.hero-image-container': {
         '&::after': {
           transform: 'translateY(-50%)',
-        }
+        },
       },
 
       '.hero-info-container': {
-        '.hero-info-presentation': {  
+        '.hero-info-presentation': {
           span: {
             fontSize: '$xxs',
-          }
+          },
         },
-  
+
         h1: {
           padding: '$stack-xl 0 $stack-xs',
           fontSize: '$lg',
         },
-  
+
         h2: {
           fontSize: '$xs',
         },
-      }
+      },
     },
   },
 
@@ -140,13 +138,12 @@ export const HeroSection = styled('section', {
 
         '&::after': {
           left: '8px',
-        }
+        },
       },
 
       '.hero-info-container': {
-        padding: '0 24px 0'
-      }
+        padding: '0 24px 0',
+      },
     },
-    
   },
 })

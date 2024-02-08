@@ -22,8 +22,8 @@ export const InputContainer = styled('div', {
     error: {
       true: {
         borderBottomColor: '$error-main',
-      }
-    }
+      },
+    },
   },
 
   input: {
@@ -54,5 +54,5 @@ export const ErrorMessage = styled('span', {
   color: '$error-dark',
   fontSize: '$xxxs',
   fontWeight: '$md',
-  lineHeight: '$lg'
+  lineHeight: '$lg',
 })

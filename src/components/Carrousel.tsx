@@ -12,7 +12,11 @@ interface CarrouselProps {
   responsive?: boolean
 }
 
-export default function Carrousel({ settings, slides, responsive = false }: CarrouselProps) {
+export default function Carrousel({
+  settings,
+  slides,
+  responsive = false,
+}: CarrouselProps) {
   const baseSettings = {
     dots: false,
     infinite: true,
@@ -66,15 +70,22 @@ export default function Carrousel({ settings, slides, responsive = false }: Carr
           slidesToScroll: 1,
         },
       },
-    ]
+    ],
   }
-  const selectedSettings = responsive ? responseSettings : baseSettings 
+  const selectedSettings = responsive ? responseSettings : baseSettings
 
   return (
     <Slider {...selectedSettings}>
       {slides.map((image) => (
-        <div key={image} className='carrousel-item'>
-          <Image priority={true} quality={90} src={`/images/cellphones/${image}.png`} alt="cellphone image" width={193} height={406} />
+        <div key={image} className="carrousel-item">
+          <Image
+            priority={true}
+            quality={90}
+            src={`/images/cellphones/${image}.png`}
+            alt="cellphone image"
+            width={193}
+            height={406}
+          />
         </div>
       ))}
     </Slider>

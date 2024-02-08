@@ -34,13 +34,13 @@ export const ButtonContainer = styled('button', {
   '&:disabled': {
     background: '$dark-disable',
     color: '$light-secondary',
-    cursor: 'not-allowed'
+    cursor: 'not-allowed',
   },
 
   '@media screen and (max-width: 1440px)': {
     height: 48,
     minWidth: 120,
     fontSize: '$xxs',
-    padding: '0 $inline-xxxs'
+    padding: '0 $inline-xxxs',
   },
 })

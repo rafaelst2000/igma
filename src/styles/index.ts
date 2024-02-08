@@ -56,59 +56,59 @@ export const {
     },
 
     fonts: {
-      jakarta: `${jakarta.style.fontFamily}, sans-serif`,	
+      jakarta: `${jakarta.style.fontFamily}, sans-serif`,
     },
 
     fontSizes: {
-      'xxxs': '12px',
-      'xxs': '14px',
-      'xs': '16px',
-      'sm': '20px',
-      'md': '24px',
-      'lg': '32px',
-      'xl': '40px',
-      'xxl': '48px',
-      'xxxl': '64px',
-      'display': '80px',
-      'giant': '96px',
+      xxxs: '12px',
+      xxs: '14px',
+      xs: '16px',
+      sm: '20px',
+      md: '24px',
+      lg: '32px',
+      xl: '40px',
+      xxl: '48px',
+      xxxl: '64px',
+      display: '80px',
+      giant: '96px',
     },
 
     lineHeights: {
-      'xxs': '100%',
-      'xs': '115%',
-      'sm': '120%',
-      'md': '133%',
-      'lg': '150%',
-      'xl': '175%',
+      xxs: '100%',
+      xs: '115%',
+      sm: '120%',
+      md: '133%',
+      lg: '150%',
+      xl: '175%',
     },
 
     fontWeights: {
-      'md': '500',
-      'sb': '600',
+      md: '500',
+      sb: '600',
     },
 
     letterSpacings: {
-      'default': '0px',
-      'sm': '-1px',
-      'md': '-2px',
-      'lg': '-3px'
+      default: '0px',
+      sm: '-1px',
+      md: '-2px',
+      lg: '-3px',
     },
 
     borderWidths: {
-      'none': '0px',
-      'hairline': '1px',
-      'sm': '2px',
-      'thick': '3px',
-      'heavy': '4px'
+      none: '0px',
+      hairline: '1px',
+      sm: '2px',
+      thick: '3px',
+      heavy: '4px',
     },
 
     radii: {
-      'none': '0px',
-      'sm': '8px',
-      'md': '16px',
-      'lg': '24px',
-      'pill': '500px',
-      'circular': '50%',
+      none: '0px',
+      sm: '8px',
+      md: '16px',
+      lg: '24px',
+      pill: '500px',
+      circular: '50%',
     },
 
     space: {
@@ -135,6 +135,6 @@ export const {
       'stack-xxxl': '120px',
       'stack-huge': '160px',
       'stack-giant': '200px',
-    }
+    },
   },
 })

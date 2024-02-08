@@ -14,10 +14,10 @@ export const FooterContainer = styled('footer', {
 
     p: {
       fontSize: '$md',
-      $fontWeight: "$md",
+      $fontWeight: '$md',
       lineHeight: '$lg',
-      color: '$dark-main'
-    }
+      color: '$dark-main',
+    },
   },
 
   '@media screen and (max-width: 1440px)': {
@@ -27,7 +27,7 @@ export const FooterContainer = styled('footer', {
     '.footer-text': {
       p: {
         fontSize: '$xs',
-      }
+      },
     },
   },
 
@@ -38,7 +38,7 @@ export const FooterContainer = styled('footer', {
     '.footer-text': {
       p: {
         fontSize: '$xxs',
-      }
+      },
     },
   },
 
@@ -48,14 +48,14 @@ export const FooterContainer = styled('footer', {
 
     '.footer-text': {
       display: 'block',
-  
+
       p: {
         fontSize: '$xxs',
       },
 
       'p + p': {
-        marginTop: '$stack-nano'
-      }
+        marginTop: '$stack-nano',
+      },
     },
   },
 })

@@ -7,7 +7,7 @@ export const AvatarContainer = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
   borderRadius: '$circular',
-  
+
   img: {
     borderRadius: '$circular',
     width: 48,
