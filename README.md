@@ -31,7 +31,7 @@ Este projeto foi desenvolvido como **Teste técnico** da empresa **Igma**. Consi
 
 ## **⚡Executando o projeto em ambiente de Produção**
 
-Acesse [https://motoways.vercel.app/](https://rafaelst2000-igma.vercel.app/) pelo seu navegador.
+Acesse [https://rafaelst2000-igma.vercel.app](https://rafaelst2000-igma.vercel.app/) pelo seu navegador.
 
 <br /> <br />
 <div align="center">
