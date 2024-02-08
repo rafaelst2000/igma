@@ -1,4 +1,5 @@
 import { NewsletterSection } from '../../styles/components/sections/Newsletter'
+import { useSession } from 'next-auth/react'
 
 import { Input } from '../Input'
 import { Button } from '../Button'
@@ -6,8 +7,20 @@ import { Button } from '../Button'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Carrousel from '../Carrousel'
+import { useEffect, useState } from 'react'
 
 export default function Newsletter() {
+  const session = useSession()
+  const user = session?.data?.user
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+
+  useEffect(() => {
+    setName(user?.name ?? '')
+    setEmail(user?.email ?? '')
+  }, [user])
+
   const cellphoneSlider1 = ['celular1', 'celular2', 'celular3']
   const cellphoneSlider2 = ['celular4', 'celular5', 'celular6']
   const cellphoneSlider3 = ['celular7', 'celular8', 'celular9']
@@ -32,11 +45,15 @@ export default function Newsletter() {
           <Input
             placeholder="Nome"
             type="text"
+            value={name}
+            onChange={({ target }) => setName(target.value)}
             css={{ marginBottom: '$stack-xxs' }}
           />
           <Input
             placeholder="Email"
             type="email"
+            value={email}
+            onChange={({ target }) => setEmail(target.value)}
             css={{ marginBottom: '$stack-lg' }}
           />
           <Button

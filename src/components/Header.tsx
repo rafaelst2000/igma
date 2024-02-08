@@ -2,8 +2,20 @@ import { HeaderContainer } from '@/styles/components/Header'
 import Image from 'next/image'
 
 import Avatar from './Avatar'
+import { signIn, signOut, useSession } from 'next-auth/react'
 
 export default function Header() {
+  const session = useSession()
+  const user = session?.data?.user
+
+  function handleLogin() {
+    if (session.status === 'authenticated') {
+      signOut()
+    } else {
+      signIn('google')
+    }
+  }
+
   return (
     <HeaderContainer data-aos="fade-down">
       <div className="logo-container">
@@ -16,7 +28,7 @@ export default function Header() {
         />
       </div>
       <div className="logo-content">
-        <Avatar />
+        <Avatar onClick={handleLogin} image={user?.image ?? ''} />
       </div>
     </HeaderContainer>
   )

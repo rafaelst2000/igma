@@ -1,17 +1,27 @@
 import { AvatarContainer } from '@/styles/components/Avatar'
 import Image from 'next/image'
+import { User } from 'phosphor-react'
 
-export default function Avatar() {
+interface AvatarProps {
+  onClick: () => void
+  image?: string
+}
+
+export default function Avatar({ onClick, image = '' }: AvatarProps) {
   return (
-    <AvatarContainer>
-      <Image
-        quality={60}
-        src="/images/avatar.png"
-        width={48}
-        height={48}
-        style={{ maxWidth: '100%', height: 'auto' }}
-        alt="avatar"
-      />
+    <AvatarContainer logged={!!image} onClick={onClick}>
+      {image ? (
+        <Image
+          quality={60}
+          src={image}
+          width={48}
+          height={48}
+          style={{ maxWidth: '100%', height: 'auto' }}
+          alt="user image"
+        />
+      ) : (
+        <User size={24} />
+      )}
     </AvatarContainer>
   )
 }
