@@ -5,7 +5,7 @@ import Avatar from './Avatar'
 
 export default function Header() {
   return (
-    <HeaderContainer>
+    <HeaderContainer data-aos="fade-down">
       <div className="logo-container">
         <Image
           src="/images/LogoHeader.svg"

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <HeroSection>
+    <HeroSection data-aos="fade-up">
       <div className="hero-container">
         <div className="hero-image-container">
           <Image

@@ -18,7 +18,7 @@ export default function Clients() {
   ]
 
   return (
-    <ClientsSection>
+    <ClientsSection data-aos="fade-up">
       <h2>
         Expressamos mais de 20 anos de experiência criando plataformas digitais
         para as maiores empresas do Brasil, impactando milhões de pessoas.

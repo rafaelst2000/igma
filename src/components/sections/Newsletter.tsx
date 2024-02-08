@@ -20,7 +20,7 @@ export default function Newsletter() {
   ]
 
   return (
-    <NewsletterSection>
+    <NewsletterSection data-aos="fade-up">
       <div className="news-letter-content">
         <h3>Assine nossa newsletter</h3>
         <h2>
