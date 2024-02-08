@@ -7,31 +7,41 @@ export const HeaderContainer = styled('header', {
   height: 80,
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'space-between',
-  maxWidth: '1672px',
+  justifyContent: 'center',
   width: '100%',
   margin: '0 auto',
   zIndex: 999,
+  paddingRight: 24,
+
+  '.logo-container': {
+    position: 'absolute',
+    left: 0,
+    top: '50%',
+    transform: 'translateY(-50%)',
+  },
+
+  '.logo-content': {
+    width: '100%',
+    maxWidth: 1672,
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
 
   '@media screen and (max-width: 1440px)': {
-    '.header-content': {
-      maxWidth: 1344
+    '.logo-content': {
+      maxWidth: 1344,
     },
   },
 
   '@media screen and (max-width: 1280px)': {
-    '.header-content': {
-      maxWidth: 992
+    '.logo-content': {
+      maxWidth: 992,
     },
-
-    '.logo-container': {
-      width: '80px !important',
-    }
   },
 
   '@media screen and (max-width: 1024px)': {
-    '.logo-container': {
-      width: 'calc(100% - 20px)',
-    }
+    '.logo-content': {
+      maxWidth: '100%',
+    },
   },
 })

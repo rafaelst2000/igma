@@ -9,7 +9,9 @@ export default function Header() {
       <div className='logo-container'>
         <Image src="/images/LogoHeader.svg" width={120} height={42} style={{ maxWidth: '100%' }}  alt="logo header" />
       </div>
-      <Avatar />
+      <div className='logo-content'>
+        <Avatar />
+      </div>
     </HeaderContainer>
  
   )
