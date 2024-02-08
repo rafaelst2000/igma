@@ -12,7 +12,7 @@ export default function App({
 }: AppProps) {
   useEffect(() => {
     AOS.init({
-      offset: 300,
+      offset: 200,
       duration: 600,
       throttleDelay: 300,
     })
