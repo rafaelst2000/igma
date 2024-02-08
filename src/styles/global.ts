@@ -10,21 +10,21 @@ export const globalStyles = globalCss({
   html: {
     'scroll-behavior': 'smooth',
   },
-/* 
+
   '::-webkit-scrollbar-track': {
     borderRadius: 999,
-    backgroundColor: '$gray-700',
+    backgroundColor: '$light-secondary',
   },
 
   '::-webkit-scrollbar': {
     width: 6,
-    backgroundColor: '$gray-700',
+    backgroundColor: '$light-secondary',
   },
 
   '::-webkit-scrollbar-thumb': {
     borderRadius: 999,
-    backgroundColor: '$gray-600',
-  }, */
+    backgroundColor: '$dark-main',
+  },
 
   'body, button, input, textarea': {
     fontFamily: '$jakarta',
