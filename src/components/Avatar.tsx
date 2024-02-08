@@ -9,7 +9,7 @@ interface AvatarProps {
 
 export default function Avatar({ onClick, image = '' }: AvatarProps) {
   return (
-    <AvatarContainer logged={!!image} onClick={onClick}>
+    <AvatarContainer aria-label="user login" logged={!!image} onClick={onClick}>
       {image ? (
         <Image
           quality={60}
