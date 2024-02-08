@@ -1,6 +1,6 @@
 import { AvatarContainer } from '@/styles/components/Avatar'
-import Image from 'next/image'
 import { User } from 'phosphor-react'
+import Image from 'next/image'
 
 interface AvatarProps {
   onClick: () => void

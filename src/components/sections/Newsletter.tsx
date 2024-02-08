@@ -1,5 +1,6 @@
 import { NewsletterSection } from '../../styles/components/sections/Newsletter'
 import { useSession } from 'next-auth/react'
+import { useEffect, useState } from 'react'
 
 import { Input } from '../Input'
 import { Button } from '../Button'
@@ -7,7 +8,6 @@ import { Button } from '../Button'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Carrousel from '../Carrousel'
-import { useEffect, useState } from 'react'
 
 export default function Newsletter() {
   const session = useSession()

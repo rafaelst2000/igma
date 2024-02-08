@@ -1,8 +1,7 @@
 import { HeaderContainer } from '@/styles/components/Header'
-import Image from 'next/image'
-
-import Avatar from './Avatar'
 import { signIn, signOut, useSession } from 'next-auth/react'
+import Image from 'next/image'
+import Avatar from './Avatar'
 
 export default function Header() {
   const session = useSession()
