@@ -74,7 +74,7 @@ export default function Carrousel({ settings, slides, responsive = false }: Carr
     <Slider {...selectedSettings}>
       {slides.map((image) => (
         <div key={image} className='carrousel-item'>
-          <Image quality={75} src={`/images/cellphones/${image}.png`} alt="cellphone image" width={193} height={406} />
+          <Image priority={true} quality={75} src={`/images/cellphones/${image}.png`} alt="cellphone image" width={193} height={406} />
         </div>
       ))}
     </Slider>
